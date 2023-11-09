@@ -17,4 +17,11 @@ html {
 /* 37.92px */
 /* 28.48px */
 /* 21.28px */
-/* 12px *//*# sourceMappingURL=utility.css.map */
+/* 12px */
+.ProjectContainer_root {
+  width: 100rem;
+  height: 75rem;
+  background-color: #120c08;
+  align-self: center;
+  border-radius: 1.875rem;
+}/*# sourceMappingURL=projectContainer.css.map */

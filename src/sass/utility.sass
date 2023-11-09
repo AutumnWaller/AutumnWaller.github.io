@@ -1,3 +1,4 @@
+@use 'sass:math'
 @function toRem($px)
     @return math.div($px, 16px) * 1rem
 
@@ -20,26 +21,31 @@ html
     font-size: 100%
     /* 16px */
   
-h1 
+@mixin h1 
     font-size: 4.210rem 
+    font-family: 'B612'
     /* 67.36px */
   
-h2 
+@mixin h2 
     font-size: 3.158rem
+    font-family: 'B612'
 /* 50.56px */
   
-h3 
+@mixin h3 
     font-size: 2.369rem
+    font-family: 'B612'
 /* 37.92px */
   
-h4 
+@mixin h4 
     font-size: 1.777rem
+    font-family: 'B612'
 /* 28.48px */
   
-h5 
+@mixin h5 
+    font-family: 'B612'
     font-size: 1.333rem 
 /* 21.28px */
   
-small 
+@mixin small 
     font-size: 0.750rem
 /* 12px */
