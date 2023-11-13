@@ -2,56 +2,20 @@
 
 .Page
     &_root
-        position: absolute
-        left: 0
-        right: 0
-        bottom: 0
-        top: 0
-        background-color: $background
+        color: $text
+    &_intro
+        text-align: center
         display: flex
         flex-direction: column
-    &_header
-        position: absolute
-        top: 0
-        left: 0
-        right: 0
-        height: toRem(60px)
-        background-color: $primary
-        opacity: 0.6
-        border-bottom-left-radius: toRem(10px)
-        border-bottom-right-radius: toRem(10px)
-    &_headerBox
-        position: absolute
-        left: 0
-        right: 0
-        display: flex
-        flex-direction: row
-        justify-content: flex-start
-        height: 100%
-    &_headerText
-        @include h4
-        align-self: center
-        padding-left: toRem(30px)
-        padding-right: toRem(30px)
-        color: $text
-        &.h3
-            @include h3
-    &_heading
+    &_introName
+        margin-top: toRem(50px)
+        @include h1
+    &_introRole
+        margin-top: toRem(10px)
         @include h2
-        color: $text
-        margin-top: toRem(100px)
-        margin-bottom: toRem(20px)
-    &_textBox
-        background-color: $secondary
-        border-radius: toRem(30px)
+    &_introDesc
+        margin-top: toRem(50px)
+        width: toRem(500px)
         align-self: center
-        display: flex
-        justify-content: center
-        max-width: toRem(1200px)
-    &_aboutMe
-        @include h5
-        color: $text
-        align-self: center
-        margin: toRem(20px)
-        width: toRem(800px)
 
+    

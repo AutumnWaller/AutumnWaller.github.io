@@ -1,25 +1,27 @@
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* 50.56px */
+/* 37.92px */
+p {
+  color: #faf8f5;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
+/* 28.48px */
+/* 21.28px */
+/* 12px */
+@media screen and (max-width: 3840px) {
+  html {
+    font-size: 18px;
+  }
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
 }
-.logo.preact:hover {
-  filter: drop-shadow(0 0 2em #673ab8aa);
+html {
+  background-color: #151414;
+  scroll-behavior: smooth;
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+body {
+  min-height: 100vh;
+}/*# sourceMappingURL=app.css.map */

@@ -1,5 +1,6 @@
 import { Page } from './page'
 import '../css/app.css'
+import { render } from 'preact'
 
 export function App() {
 
@@ -7,3 +8,5 @@ export function App() {
     <Page/>
   )
 }
+
+render(<App />, document.getElementById('app')!)

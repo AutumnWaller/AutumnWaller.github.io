@@ -1,20 +1,9 @@
-body {
-  font-family: "Noto Sans Tamil";
-  font-weight: 400;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: "B612";
-  font-weight: 700;
-}
-
-html {
-  font-size: 100%;
-  /* 16px */
-}
-
 /* 50.56px */
 /* 37.92px */
+p {
+  color: #faf8f5;
+}
+
 /* 28.48px */
 /* 21.28px */
 /* 12px *//*# sourceMappingURL=utility.css.map */

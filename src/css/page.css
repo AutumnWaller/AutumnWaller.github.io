@@ -1,85 +1,35 @@
-body {
-  font-family: "Noto Sans Tamil";
-  font-weight: 400;
-}
-
-h1, h2, h3, h4, h5 {
-  font-family: "B612";
-  font-weight: 700;
-}
-
-html {
-  font-size: 100%;
-  /* 16px */
-}
-
 /* 50.56px */
 /* 37.92px */
+p {
+  color: #faf8f5;
+}
+
 /* 28.48px */
 /* 21.28px */
 /* 12px */
 .Page_root {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  background-color: #151414;
+  color: #faf8f5;
+}
+.Page_intro {
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
-.Page_header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3.75rem;
-  background-color: #f68a46;
-  opacity: 0.6;
-  border-bottom-left-radius: 0.625rem;
-  border-bottom-right-radius: 0.625rem;
-}
-.Page_headerBox {
-  position: absolute;
-  left: 0;
-  right: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  height: 100%;
-}
-.Page_headerText {
-  font-size: 1.777rem;
+.Page_introName {
+  margin-top: 3.125rem;
+  font-size: 4.21rem;
   font-family: "B612";
-  align-self: center;
-  padding-left: 1.875rem;
-  padding-right: 1.875rem;
   color: #faf8f5;
+  /* 67.36px */
 }
-.Page_headerText.h3 {
-  font-size: 2.369rem;
-  font-family: "B612";
-}
-.Page_heading {
+.Page_introRole {
+  margin-top: 0.625rem;
   font-size: 3.158rem;
   font-family: "B612";
   color: #faf8f5;
-  margin-top: 6.25rem;
-  margin-bottom: 1.25rem;
 }
-.Page_textBox {
-  background-color: #120c08;
-  border-radius: 1.875rem;
+.Page_introDesc {
+  margin-top: 3.125rem;
+  width: 31.25rem;
   align-self: center;
-  display: flex;
-  justify-content: center;
-  max-width: 75rem;
-}
-.Page_aboutMe {
-  font-family: "B612";
-  font-size: 1.333rem;
-  color: #faf8f5;
-  align-self: center;
-  margin: 1.25rem;
-  width: 50rem;
 }/*# sourceMappingURL=page.css.map */
