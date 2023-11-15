@@ -16,27 +16,50 @@
         height: toRem(1500px)
         width: toRem(6px)
         align-self: center
-
-    &_dateEvent
+    &_jobs
         display: flex
-        position: relative
+        flex-direction: column
         align-self: center
-        width: toRem(800px)
-        justify-content: center
+        margin-right: toRem(90px)
+
+
+
+
+.JobDetails
+    &_root
+        text-align: left
+        display: flex
         flex-direction: row
-        margin-left: toRem(300px)
-    &_circle
-        background-color: $primary
-        width: toRem(60px)
-        height: toRem(60px)
-        align-self: center
-        border-radius: toRem(30px)
-        margin-right: toRem(2px)
+    &_job
+        display: flex
+        flex-direction: column
+        top: toRem(10px)
+        width: toRem(280px)
+        text-align: left
+    &_companyName
+        @include h3
+    &_jobTitle
+        @include h4
+    &_jobDescription
+        @include bodyText
+    &_yearLabel
+        display: flex
+        flex-direction: row
+        position: relative
+    &_year
+        @include h3
+        margin-left: toRem(25px)
+        margin-top: toRem(12px)
     &_hLine
         border-top: toRem(3px) dashed $text
         width: toRem(200px)
         align-self: center
-    &_year
-        @include h3
-        margin-left: toRem(25px)
-        margin-top: toRem(5px)
+    &_circle
+        position: absolute
+        background-color: $primary
+        width: toRem(60px)
+        height: toRem(60px) 
+        align-self: center
+        border-radius: toRem(30px)
+        left: toRem(30px)
+        

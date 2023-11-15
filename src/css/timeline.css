@@ -29,31 +29,59 @@ p {
   width: 0.375rem;
   align-self: center;
 }
-.Timeline_dateEvent {
+.Timeline_jobs {
   display: flex;
-  position: relative;
+  flex-direction: column;
   align-self: center;
-  width: 50rem;
-  justify-content: center;
-  flex-direction: row;
-  margin-left: 18.75rem;
+  margin-right: 5.625rem;
 }
-.Timeline_circle {
+
+.JobDetails_root {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.JobDetails_job {
+  display: flex;
+  flex-direction: column;
+  top: 0.625rem;
+  width: 17.5rem;
+  text-align: left;
+}
+.JobDetails_companyName {
+  font-size: 2.369rem;
+  font-family: "B612";
+}
+.JobDetails_jobTitle {
+  font-size: 1.777rem;
+  font-family: "B612";
+}
+.JobDetails_jobDescription {
+  font-size: 1rem;
+  color: #faf8f5;
+}
+.JobDetails_yearLabel {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.JobDetails_year {
+  font-size: 2.369rem;
+  font-family: "B612";
+  margin-left: 1.5625rem;
+  margin-top: 0.75rem;
+}
+.JobDetails_hLine {
+  border-top: 0.1875rem dashed #faf8f5;
+  width: 12.5rem;
+  align-self: center;
+}
+.JobDetails_circle {
+  position: absolute;
   background-color: #f68a46;
   width: 3.75rem;
   height: 3.75rem;
   align-self: center;
   border-radius: 1.875rem;
-  margin-right: 0.125rem;
-}
-.Timeline_hLine {
-  border-top: 0.1875rem dashed #faf8f5;
-  width: 12.5rem;
-  align-self: center;
-}
-.Timeline_year {
-  font-size: 2.369rem;
-  font-family: "B612";
-  margin-left: 1.5625rem;
-  margin-top: 0.3125rem;
+  left: 1.875rem;
 }/*# sourceMappingURL=timeline.css.map */
