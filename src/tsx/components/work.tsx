@@ -10,7 +10,7 @@ export class Work extends Component<{}, {}> {
                 year="2023"
                 jobRole="Graduate UI Developer"
                 jobDescription={<div> 
-                                <p>I worked on the RTS game Warhammer\n Age of Sigmar: Realms of Ruin. </p>
+                                <p>I worked on the RTS game Warhammer Age of Sigmar: Realms of Ruin. </p>
                                 <p>in this role I created UI components and pages using Typescript and SASS, using the middleware solution
                                 Coherant Gameface. The work was done in Frontier Developments' proprietary game engine. </p>
                                 <p>My largest contribution to the game was the Conquest game mode which involved a world for the player
