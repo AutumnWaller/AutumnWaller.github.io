@@ -16,11 +16,11 @@ p {
   width: 3rem;
   height: 3rem;
   background-size: cover;
-  background-image: url("public/Icons/LinkedIn.png");
+  background-image: url("/Icons/LinkedIn.png");
 }
 .SocialLinks_github {
   width: 3.125rem;
   height: 3rem;
   background-size: cover;
-  background-image: url("Icons/Github.png");
+  background-image: url("/Icons/Github.png");
 }/*# sourceMappingURL=socialLinks.css.map */
