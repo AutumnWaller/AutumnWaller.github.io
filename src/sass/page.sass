@@ -3,6 +3,9 @@
 .Page
     &_root
         color: $text
+        display: flex
+        justify-content: center
+        flex-direction: column
     &_intro
         text-align: center
         display: flex
@@ -16,6 +19,10 @@
     &_introDesc
         margin-top: toRem(50px)
         width: toRem(500px)
+        align-self: center
+    &_workHistory
+        @include h2
+        margin-top: toRem(80px)
         align-self: center
 
     

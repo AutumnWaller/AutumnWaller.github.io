@@ -1,0 +1,49 @@
+/* 50.56px */
+/* 37.92px */
+p {
+  color: #faf8f5;
+}
+
+/* 28.48px */
+/* 21.28px */
+/* 12px */
+.WorkButton_root {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #120c08;
+}
+.WorkButton_textBox {
+  margin: 1.25rem;
+  width: 37.5rem;
+}
+.WorkButton_title {
+  font-size: 2.369rem;
+  font-family: "B612";
+}
+.WorkButton_subtitle {
+  font-size: 1.777rem;
+  font-family: "B612";
+}
+.WorkButton_text {
+  font-family: "B612";
+  font-size: 1.333rem;
+}
+.WorkButton_imageBox {
+  width: 37rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.WorkButton_imageBoxHor {
+  display: flex;
+  flex-direction: row;
+}
+.WorkButton_image {
+  margin: 1.25rem;
+  align-self: flex-start;
+  background-size: contain;
+  width: 16rem;
+  height: 9rem;
+  border-radius: 0.3125rem;
+}/*# sourceMappingURL=workButton.css.map */

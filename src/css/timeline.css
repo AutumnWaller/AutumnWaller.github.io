@@ -33,7 +33,6 @@ p {
   display: flex;
   position: relative;
   align-self: center;
-  width: 50rem;
   justify-content: center;
   flex-direction: row;
   margin-left: 18.75rem;
@@ -56,4 +55,9 @@ p {
   font-family: "B612";
   margin-left: 1.5625rem;
   margin-top: 0.3125rem;
+}
+.Timeline_job {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }/*# sourceMappingURL=timeline.css.map */

@@ -12,6 +12,11 @@ export class Timeline extends Component<{}, {}> {
                 <div className={"Timeline_hLine"}/>
                 <div className={"Timeline_year"}>2019</div>
             </div>
+            <div className={"Timeline_job"}>
+                <div className={"Timeline_company"}>Company</div>
+                <div className={"Timeline_role"}>Role</div>
+                <div className={"Timeline_description"}>Description</div>
+           </div>
         </div>
     }
 }

@@ -1,0 +1,34 @@
+@import "utility.sass"
+.WorkButton
+    &_root
+        position: relative
+        display: flex
+        flex-direction: row
+        background-color: $secondary
+    &_textBox
+        margin: toRem(20px)
+        width: toRem(600px)
+    &_title
+        @include h3
+    &_subtitle
+        @include h4
+    &_text
+        @include h5
+    &_imageBox
+        width: toRem(592px)
+        display: flex
+        flex-direction: column
+        justify-content: center
+    &_imageBoxHor
+        display: flex
+        flex-direction: row
+
+    &_image
+        margin: toRem(20px)
+        align-self: flex-start
+        background-size: contain
+        width: toRem(256px)
+        height: toRem(144px)
+        border-radius: toRem(5px)
+
+        
