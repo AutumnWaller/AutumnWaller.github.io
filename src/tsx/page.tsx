@@ -1,6 +1,7 @@
 import { Component } from "preact";
 import '../css/page.css'
 import { Work } from "./components/work";
+import { SocialLinks } from "./components/socialLinks";
 
 export class Page extends Component<{}, {}> {
     
@@ -14,7 +15,7 @@ export class Page extends Component<{}, {}> {
             </div>
             <div className={"Page_workHistory"}>Work History</div>
             <Work/>
-            {/* <Timeline/> */}
+            <SocialLinks/>
         </div>
     }
 }
