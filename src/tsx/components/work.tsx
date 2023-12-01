@@ -73,7 +73,7 @@ export class Work extends Component<{}, {}> {
 
                 </div>}
                 link={"https://unity.com/"}
-                image=""
+                image="Icons/Unity.png"
             />
 
         </div>
