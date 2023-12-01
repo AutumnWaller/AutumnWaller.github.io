@@ -1,6 +1,5 @@
 import { Component } from "preact";
 import '../css/page.css'
-import { Timeline } from "./components/timeline";
 import { Work } from "./components/work";
 
 export class Page extends Component<{}, {}> {
